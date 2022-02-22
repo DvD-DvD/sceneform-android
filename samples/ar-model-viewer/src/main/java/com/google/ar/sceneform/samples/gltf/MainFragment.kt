@@ -49,7 +49,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
 
     private suspend fun loadModels() {
         model = ModelRenderable.builder()
-            .setSource(context, Uri.parse("models/halloween.glb"))
+            .setSource(context, Uri.parse("models/galaxy-s22-ultra-burgundy.glb"))
             .setIsFilamentGltf(true)
             .await()
         modelView = ViewRenderable.builder()

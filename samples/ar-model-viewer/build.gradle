@@ -52,3 +52,6 @@ dependencies {
     releaseImplementation "com.gorisse.thomas.sceneform:sceneform:1.20.5"
     debugApi project(":sceneform")
 }
+task wrapper(type: Wrapper){
+    gradleVersion = '7.2'
+}
